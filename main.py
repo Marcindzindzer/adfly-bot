@@ -15,7 +15,7 @@ from selenium import webdriver
 from selenium.common.exceptions import TimeoutException,WebDriverException,NoSuchWindowException,ElementNotVisibleException
 from selenium.webdriver.common.proxy import Proxy,ProxyType
 
-colorama.init()
+colorama.init(convert=True)
 parser=ArgumentParser()
 parser.add_argument('-t','--threads',type=int,help='set number of the threads',default=15)
 parser.add_argument('-u','--url',help='set url of the video/set the path of the urls list',default='',required=True)
