@@ -1,5 +1,6 @@
 from __future__ import print_function
 import re
+import colorama
 import requests
 from os import _exit,path,devnull
 from sys import stdin,stdout
